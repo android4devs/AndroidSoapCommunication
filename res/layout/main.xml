@@ -1,0 +1,33 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<EditText
+		android:layout_height="wrap_content"
+		android:id="@+id/etConverter"
+		android:layout_width="fill_parent"
+		android:hint="Type temperature here"
+		android:inputType="numberDecimal" />
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/btnCelsiusToFahrenheit"
+		android:text="Celsius to Fahrenheit" />
+	<Button
+		android:id="@+id/btnFahrenheitToCelsius"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Fahrenheit to Celsius" />
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:text="Result"
+		android:textSize="28dp" />
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="---"
+		android:id="@+id/tvResult" />
+</LinearLayout>
